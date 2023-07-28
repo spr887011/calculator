@@ -50,7 +50,7 @@
       padding-left: 0%;
       background-color: gainsboro;
       border-radius: 20px;
-      width: 100%;
+      width: 100% !important;
     }
     button{
       margin: 15px;
@@ -58,29 +58,17 @@
       width:auto;
     }
   }
-  /* @media screen and (min-width: 550px) and (max-width: 850px) {
-    .equal{
-      width: 80px;
-      height: 30px;
-      text-align: center;
-      padding: 1%;
-  
-    }
+  @media screen and (min-width: 600px) and (max-width: 850px) {
+
     .calwin{
-      padding-top: 40%;
+      padding-top: 10%;
       padding-bottom: 5%;
       padding-right: 0%;
       padding-left: 0%;
       background-color: gainsboro;
       border-radius: 20px;
-      width: 100%;
     }
-    button{
-      margin: 15px;
-      margin-left: 0px;
-      width:auto;
-    }
-  } */
+  }
   #title{
     padding-left: 40%;
     background-color: rgba(211, 191, 191, 0.178);
