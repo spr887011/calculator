@@ -1,0 +1,88 @@
+.calwin{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 0%;
+    padding-left: 0%;
+    background-color: gainsboro;
+    border-radius: 20px;
+    width: 35% !important;
+  }
+  .inputbox{
+    width: 80%;
+    height: 50px;
+    background-color: rgba(158, 138, 138, 0.178);
+    border: 1px solid black;
+      
+  }
+  .firstContainer{
+    background-color: rgba(211, 191, 191, 0.178);
+    padding: 1%;
+  }
+  .inputdiv{
+    padding-left: 10%;
+  }
+  .buttondiv{
+    width: 80%;
+    padding-left: 20%;
+    padding-top: 3%;
+  }
+  .c{
+    color: red;
+  }
+  .operators{
+    color: blue;
+  }
+  .equal1{
+    width: 100%;
+  }
+  @media (max-width : 850px) {
+    .equal1{
+      width: 80px;
+      height: 30px;
+      text-align: center;
+      padding: 1%;
+  
+    }
+    .calwin{
+      padding-top: 40%;
+      padding-bottom: 10%;
+      padding-right: 0%;
+      padding-left: 0%;
+      background-color: gainsboro;
+      border-radius: 20px;
+      width: 100%;
+    }
+    button{
+      margin: 15px;
+      margin-left: 0px;
+      width:auto;
+    }
+  }
+  /* @media screen and (min-width: 550px) and (max-width: 850px) {
+    .equal{
+      width: 80px;
+      height: 30px;
+      text-align: center;
+      padding: 1%;
+  
+    }
+    .calwin{
+      padding-top: 40%;
+      padding-bottom: 5%;
+      padding-right: 0%;
+      padding-left: 0%;
+      background-color: gainsboro;
+      border-radius: 20px;
+      width: 100%;
+    }
+    button{
+      margin: 15px;
+      margin-left: 0px;
+      width:auto;
+    }
+  } */
+  #title{
+    padding-left: 40%;
+    background-color: rgba(211, 191, 191, 0.178);
+    margin: 0px;
+  }
